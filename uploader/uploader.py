@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os
 from werkzeug import secure_filename
 
-UPLOAD_FOLDER = '/home/ubuntu/uploader/files'
+UPLOAD_FOLDER = '/home/ubuntu/data/'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
